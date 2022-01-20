@@ -36,7 +36,7 @@ nav a:hover {
 
 .club-name {
     height: 30rem;
-    background-image: url('/resources/img/background.jpg');
+    background-image: url('./resources/img/background.jpg');
     background-size: cover;
 }
 
