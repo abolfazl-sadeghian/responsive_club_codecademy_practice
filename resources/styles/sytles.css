@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 3rem;
+   background-color:teal;
+    
+}
+
+nav ul li {
+    width: 170px;   
+    text-decoration-style: none;
+    list-style: none;
+   
+    text-align: center;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:visited{
+    color: white;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.club-name {
+    height: 30rem;
+    background-image: url('/resources/img/background.jpg');
+    background-size: cover;
+}
+
+.club-name div {
+    position: absolute;
+    top: 15rem;
+    text-align: center; 
+    height: 6.5rem;
+    color: black;
+    width: 100%;
+    border:2px solid black;
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.club-name h1 {
+    color: white;
+    
+}
+
+#events {
+    background-color: teal;
+    color:white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1rem;
+}
+#events p {
+    margin-top: 1rem;
+
+}
+
+.events-images {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.events-images img {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:1080px) {
+    .events-images {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .events-images img {
+        display: absolute;
+        top: 50rem;
+        width: 70%;
+        height: 50%;
+        margin: 10px;
+
+    }
+}
+
+.quote {
+    padding: 1rem;
+    border:2px solid white;
+    text-align: left;
+    width: 90%;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+
+.quote h2{
+    font-size: 3rem;
+}
+
+
+#resturants{
+    margin: 5rem 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#resturants img {
+
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:1080px){
+    #resturants {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #resturants img {
+        display: absolute;
+        top: 50rem;
+        width: 70%;
+        height: 50%;
+        margin: 10px;
+
+    }
+}
+
+#calltoaction {
+     
+    background-color: teal;
+    text-align: center;
+    padding: 3rem 1rem;
+
+
+
+}
+
+#calltoaction img {
+    width: 70%;
+    border-radius: 5px;
+}
+
+#calltoaction h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    color:white;
+}
+
+footer {
+    height: 3rem;
+    background-color: black;
+    color:white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
